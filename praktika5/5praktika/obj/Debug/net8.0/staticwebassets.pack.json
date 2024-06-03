@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\5praktika.bundle.scp.css",
+      "PackagePath": "staticwebassets\\5praktika.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\wwwroot\\images\\mhlogo.jpg",
+      "PackagePath": "staticwebassets\\images\\mhlogo.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.5praktika.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.5praktika.props",
+      "PackagePath": "build\\5praktika.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.5praktika.props",
+      "PackagePath": "buildMultiTargeting\\5praktika.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.5praktika.props",
+      "PackagePath": "buildTransitive\\5praktika.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

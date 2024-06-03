@@ -1,0 +1,69 @@
+﻿@page "/login"
+
+<PageTitle>Вход</PageTitle>
+
+@using _5praktika.Models.ViewModels
+@using _5praktika.Data
+@using System.Security.Claims
+@using Microsoft.AspNetCore.Authentication
+@using Microsoft.AspNetCore.Authentication.Cookies
+@inject AppDbContext appDbContext
+@inject NavigationManager navigationManager
+
+<div class="row" style="background-color: white; padding: 6rem">
+	<div class="col-lg-4 offset-lg-4 pt-4 pb-4 border" style="background-color: white; padding: 6rem">
+		<EditForm Model="@Model" OnValidSubmit="AuthenticateUser" FormName="LoginForm">
+			<DataAnnotationsValidator />
+			<div class="mb-3 text-center flex-column">
+				<img src="/images/mhlogo.jpg" alt="Your Image" style="width: 150px; height: 150px">
+				<h3>ВХОД</h3>
+			</div>
+			<div class="mb-3" style="margin-top: 4em">
+				<label>Юзернейм</label>
+				<InputText @bind-Value="Model.Username" class="form-control" placeholder="Юзернейм" />
+				<ValidationMessage For="() => Model.Username"/>
+			</div>
+			<div class="mb-3">
+				<label>Пароль</label>
+				<InputText @bind-Value="Model.Password" class="form-control" placeholder="Пароль" typeof="password" />
+				<ValidationMessage For="() => Model.Password" />
+			</div>
+			<div class="mb-3 text-center">
+				<span class="text-danger">@errorMessage</span>
+			</div>
+			<div class="mb-3 d-grid gap-2" style="margin:auto; justify-content:center;">
+				<button type="submit" class="btn btn-primary" style="width: fit-content; padding: 8px 20px; border-radius: 20px">Войти</button>
+			</div>
+		</EditForm>
+	</div>
+</div>
+
+@code {
+	[CascadingParameter]
+	public HttpContext? HttpContext { get; set; }
+
+	[SupplyParameterFromForm]
+	public LoginViewModel Model { get; set;  } = new();
+
+	private string? errorMessage;
+
+	private async Task AuthenticateUser()
+	{
+		var userAccount = appDbContext.Students.Where(x => x.Username == Model.Username).FirstOrDefault();
+		if (userAccount is null || userAccount.Password != Model.Password)
+		{
+			errorMessage = "Неверный юзернейм или пароль";
+			return;
+		}
+
+		var claims = new List<Claim>
+		{
+			new Claim(ClaimTypes.Name, Model.Username)
+		};
+
+		var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+		var principal = new ClaimsPrincipal(identity);
+		await HttpContext.SignInAsync(principal);
+		navigationManager.NavigateTo("/profile/studentgrades");
+	}
+}

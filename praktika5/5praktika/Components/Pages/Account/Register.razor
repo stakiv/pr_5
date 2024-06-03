@@ -1,0 +1,76 @@
+﻿@page "/register"
+
+<PageTitle>Регистрация</PageTitle>
+
+@using _5praktika.Models.ViewModels
+@using _5praktika.Models.Entities
+@using _5praktika.Data
+@inject AppDbContext appDbContext
+@inject NavigationManager navigationManager
+
+<div class="row" style="background-color: white; padding: 6rem">
+    <div class="col-lg-4 offset-lg-4 pt-4 pb-4 border" style="background-color: white; padding: 6rem">
+        <EditForm Model="@Model" OnValidSubmit="RegisterUser" FormName="RegisterForm">
+            <DataAnnotationsValidator />
+            <div class="mb-3 text-center flex-column">
+                <img src="/images/mhlogo.jpg" alt="Your Image" style="width: 150px; height: 150px">
+                <h3>РЕГИСТРАЦИЯ</h3>
+            </div>
+            <div class="mb-3" style="margin-top: 4em">
+                <label>Юзернейм</label>
+                <InputText @bind-Value="Model.Username" class="form-control" placeholder="Юзернейм" />
+                <ValidationMessage For="() => Model.Username" />
+            </div>
+            <div class="mb-3">
+                <label>Пароль</label>
+                <InputText @bind-Value="Model.Password" class="form-control" placeholder="Пароль" typeof="password" />
+                <ValidationMessage For="() => Model.Password" />
+            </div>
+            <div class="mb-3">
+                <label>Имя</label>
+                <InputText @bind-Value="Model.FirstName" class="form-control" placeholder="Имя" />
+                <ValidationMessage For="() => Model.FirstName" />
+            </div>
+            <div class="mb-3">
+                <label>Фамилия</label>
+                <InputText @bind-Value="Model.LastName" class="form-control" placeholder="Фамилия" />
+                <ValidationMessage For="() => Model.LastName" />
+            </div>
+            <div class="mb-3 text-center">
+                <span class="text-danger">@errorMessage</span>
+            </div>
+            <div class="mb-3 d-grid gap-2" style="margin:auto; justify-content:center;">
+                <button type="submit" class="btn btn-primary" style="width: fit-content; padding: 8px 20px; border-radius: 20px">Создать аккаунт</button>
+            </div>
+        </EditForm>
+    </div>
+</div>
+
+@code {
+    [SupplyParameterFromForm]
+    public RegisterViewModel Model { get; set; } = new();
+
+    private string? errorMessage;
+
+    private async Task RegisterUser()
+    {
+        if (appDbContext.Students.Any(x => x.Username == Model.Username))
+        {
+            errorMessage = "Данный юзернейм уже занят";
+            return;
+        }
+
+        var newStudent = new Student
+            {
+                Username = Model.Username,
+                Password = Model.Password,
+                FirstName = Model.FirstName,
+                LastName = Model.LastName
+            };
+
+        appDbContext.Students.Add(newStudent);
+        await appDbContext.SaveChangesAsync();
+
+        navigationManager.NavigateTo("/login");
+    }
+}
