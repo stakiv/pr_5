@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I4b6svzR37oz+TbE5ePO2sD0RPV7BbUmsdajrjOuwGiEa7KicOTOimkv2o74v1tCYBpuxyJG+81pp3fuWUbDcw==",
+  "dgSpecHash": "2JgvFzzhQg4txDA58fFzdPf/DJNFYzZxuva9XWEZjHUxShYC5Vn1JMaemNucNerU4Eh/IOfTN+OsYx4g9Xq1WQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\5praktika.csproj",
+  "projectFilePath": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\5praktika.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Viktoria\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.4\\microsoft.entityframeworkcore.8.0.4.nupkg.sha512",
     "C:\\Users\\Viktoria\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.4\\microsoft.entityframeworkcore.abstractions.8.0.4.nupkg.sha512",

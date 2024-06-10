@@ -720,11 +720,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\5praktika.csproj",
+      "projectUniqueName": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\5praktika.csproj",
       "projectName": "5praktika",
-      "projectPath": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\5praktika.csproj",
+      "projectPath": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\5praktika.csproj",
       "packagesPath": "C:\\Users\\Viktoria\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\obj\\",
+      "outputPath": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Viktoria\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -3,8 +3,10 @@
     "",
     "\\5praktika",
     "\\5praktika\\Components",
-    "\\5praktika\\Components\\Layout"
+    "\\5praktika\\Components\\Layout",
+    "\\5praktika\\Components\\Pages",
+    "\\5praktika\\Components\\Pages\\Account"
   ],
-  "SelectedNode": "\\5praktika\\Components\\Layout\\NavMenu.razor",
+  "SelectedNode": "\\5praktika\\Components\\Pages\\Account\\Register.razor",
   "PreviewInSolutionExplorer": false
 }

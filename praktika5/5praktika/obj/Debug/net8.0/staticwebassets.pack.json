@@ -1,27 +1,27 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\5praktika.bundle.scp.css",
+      "Id": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\5praktika.bundle.scp.css",
       "PackagePath": "staticwebassets\\5praktika.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\wwwroot\\app.css",
+      "Id": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\wwwroot\\images\\mhlogo.jpg",
+      "Id": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\wwwroot\\images\\mhlogo.jpg",
       "PackagePath": "staticwebassets\\images\\mhlogo.jpg"
     },
     {

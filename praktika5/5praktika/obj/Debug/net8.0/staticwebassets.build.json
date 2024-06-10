@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JJfqpdtncRWA57EzJRZXQeAGBgy9vVjwsARfdMFAiLk=",
+  "Hash": "MRZRqe3jvCjUf8oEBfY3eH6YFzoWCclALUnKySalzlI=",
   "Source": "5praktika",
   "BasePath": "_content/5praktika",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "5praktika\\wwwroot",
       "Source": "5praktika",
-      "ContentRoot": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\wwwroot\\",
       "BasePath": "_content/5praktika",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\obj\\Debug\\net8.0\\scopedcss\\bundle\\5praktika.styles.css",
+      "Identity": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\obj\\Debug\\net8.0\\scopedcss\\bundle\\5praktika.styles.css",
       "SourceId": "5praktika",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/5praktika",
       "RelativePath": "5praktika.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\obj\\Debug\\net8.0\\scopedcss\\bundle\\5praktika.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\obj\\Debug\\net8.0\\scopedcss\\bundle\\5praktika.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\5praktika.bundle.scp.css",
+      "Identity": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\5praktika.bundle.scp.css",
       "SourceId": "5praktika",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/5praktika",
       "RelativePath": "5praktika.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\5praktika.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\5praktika.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\wwwroot\\app.css",
       "SourceId": "5praktika",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\wwwroot\\",
       "BasePath": "_content/5praktika",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "5praktika",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\wwwroot\\",
       "BasePath": "_content/5praktika",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "5praktika",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\wwwroot\\",
       "BasePath": "_content/5praktika",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\wwwroot\\favicon.png",
       "SourceId": "5praktika",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\wwwroot\\",
       "BasePath": "_content/5praktika",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\wwwroot\\images\\mhlogo.jpg",
+      "Identity": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\wwwroot\\images\\mhlogo.jpg",
       "SourceId": "5praktika",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Viktoria\\Vika\\МИРЭА\\корпоративные_системы\\2 сем\\pr_5\\pks-mirea-5-main\\pks-mirea-5-main\\5praktika\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Viktoria\\Documents\\GitHub\\pr_5\\praktika5\\5praktika\\wwwroot\\",
       "BasePath": "_content/5praktika",
       "RelativePath": "images/mhlogo.jpg",
       "AssetKind": "All",
